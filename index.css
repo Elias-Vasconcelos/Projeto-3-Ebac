@@ -14,7 +14,6 @@ body{
     width: 100%;
     height: 834px;
     margin: 70px 224px;
-    border: solid;
 }
 header{
     display: flex;
@@ -22,7 +21,7 @@ header{
     align-items: center;
     max-width: 800px;
     width: 100%;
-    margin: 0px 300px 30px;
+    margin: 0px 250px 80px;
 }
 header img{
     margin-right: 40px;
@@ -31,11 +30,10 @@ header img{
     height: 110px;
 }
 header h1{
-    font-size: 60px;
+    font-size: 90px;
 }
 
 form{
-    border: solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +41,7 @@ form{
 form input{
     margin: 0 100px;
 }
-.numero{
+.numero-contato{
     width: 100px;
     height: 100px;
     overflow: hidden;
@@ -53,8 +51,9 @@ form input{
     cursor: pointer;
     transition: 0.5s;
     align-items: center;
+    border: none;
 }
-.numero:focus{
+.numero-contato:focus{
     width: 350px;
     background-image: none;
 }
@@ -68,6 +67,7 @@ form input{
     font-size: 30px;
     cursor: pointer;
     transition: 0.5s;
+    border: none;
 }
 .nome-contato:focus{
     width: 350px;
@@ -75,6 +75,7 @@ form input{
 }
 table{
     width: 100%;
+    
 }
 thead{
     display: inline-flex;
@@ -82,7 +83,8 @@ thead{
     width: 100%;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;    
+
 }
 thead td{
     display: flex;
@@ -90,9 +92,7 @@ thead td{
 td h2{
     font-size: 60px;
 }
-tbody{
-    width: 100%;
-}
+
 .contato-salvo{
     display: flex;
     background: #8E3D51;
@@ -101,8 +101,8 @@ tbody{
     width: 100%;
     align-items: center;
     height: 56px;
-
     align-content: center;
+    margin-left: 300px;
 }
 .contato-salvo img{
     width: 48px;
@@ -111,4 +111,35 @@ tbody{
 }
 .contato-salvo p{
     font-size: 30px;
+}
+.numero-salvo{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 450px;
+    font-size: 30px;
+}
+.numero-salvo{
+    margin-right: 18px;
+}
+.confirmaçao{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 45px 450px;
+    font-size: 20px;
+    background: green;
+    max-width: 150px;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+    border-radius: 25px;
+
+}
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 45px;
+    cursor: pointer;
+    padding: 8px;
 }
