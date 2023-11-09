@@ -143,3 +143,15 @@ form button {
     cursor: pointer;
     padding: 8px;
 }
+.erro-numero{
+    display: none;
+    background: red;
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: 350px;
+}
